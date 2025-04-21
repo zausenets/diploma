@@ -27,7 +27,7 @@ h3 {
 
 .welcome {
   background-color: #000000;
-  background-image: url("/images/banner-bg.jpg");
+  background-image: url("./images/banner-bg.jpg");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
