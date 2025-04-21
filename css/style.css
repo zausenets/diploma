@@ -1,16 +1,16 @@
 @font-face {
   font-family: "OpenSans-Regular";
-  src: url("./fonts/OpenSans-Regular.woff2") format("woff2");
-  src: url("./fonts/OpenSans-Regular.woff") format("woff");
-  src: url("./fonts/OpenSans-Regular.ttf") format("ttf");
+  src: url("../fonts/OpenSans-Regular.woff2") format("woff2");
+  src: url("../fonts/OpenSans-Regular.woff") format("woff");
+  src: url("../fonts/OpenSans-Regular.ttf") format("ttf");
   font-weight: regular;
 }
 
 @font-face {
   font-family: "OpenSans-Bold";
-  src: url("./fonts/OpenSans-Bold.woff2") format("woff2");
-  src: url("./fonts/OpenSans-Bold.woff") format("woff");
-  src: url("./fonts/OpenSans-Bold.ttf") format("ttf");
+  src: url("../fonts/OpenSans-Bold.woff2") format("woff2");
+  src: url("../fonts/OpenSans-Bold.woff") format("woff");
+  src: url("../fonts/OpenSans-Bold.ttf") format("ttf");
   font-weight: bold;
 }
 
@@ -27,7 +27,7 @@ h3 {
 
 .welcome {
   background-color: #000000;
-  background-image: url("./images/banner-bg.jpg");
+  background-image: url("../images/banner-bg.jpg");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
