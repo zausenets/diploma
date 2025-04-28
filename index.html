@@ -10,7 +10,7 @@
   <!-- ----------------------------------------------------------------- -->
   <header class="welcome">
     <div class="welcome__logo-and-menu">
-      <a href="#0"><img class="logo" src="./svg/noemi-logo.svg"/a>
+      <a href="#0"><img class="logo" src="./svg/noemi-logo.svg"</a>
       <nav class="menu">
         <ul class="menu__list">
           <li class="menu__item"> <a href="#0" class="menu__link">Главная</a> </li>
@@ -238,6 +238,7 @@
               <a href="#0" class="new-posts__text-link">лучшие прически для распущенных волос</a> </h4>
           </div>
         </article>
+
         <form class="search-box">
           <label class="search-form">
             <span class="visually-hidden">Поле поиска</span>
@@ -251,7 +252,6 @@
         <h3 class="section__title mod-mobile">Рассылка</h3>
         <form>
           <label class="mail-form">
-            <span class="visually-hidden">Поле для воода электронной почты</span>
             <input type="email" class="mail-form__field" placeholder="Ваш email-адрес"></input>
             <button class="subscribe-btn">Подписаться<span class="visually-hidden">Кнопки подписки на рассылку</span> </button>
           </label>
@@ -273,14 +273,14 @@
       </section>
   
       <section class="themes">
-        <h3 class="section__title mod-mobile">Темы</h3>
+        <h3 class="section__title themes-mod mod-mobile">Темы</h3>
         <ul class="themes__list">
-            <li class="themes__item"> <a href="#0" class="themes__item__link  first">Красота<span class="sup_text">12</span></a> </li>
-            <li class="themes__item"> <a href="#0" class="themes__item__link">Здоровье<span class="sup_text">4</span></a> </li>
-            <li class="themes__item"> <a href="#0" class="themes__item__link">Образ жизни<span class="sup_text">145</span></a> </li>
-            <li class="themes__item"> <a href="#0" class="themes__item__link">Музыка<span class="sup_text">28</span></a> </li>
-            <li class="themes__item"> <a href="#0" class="themes__item__link">Спорт<span class="sup_text">62</span></a> </li>
-            <li class="themes__item"> <a href="#0" class="themes__item__link">Йога<span class="sup_text">8</span></a> </li>
+            <li class="themes__item"> <a href="#0" class="themes__item__link  first">Красота</a><span class="sup_text">12</span></li>
+            <li class="themes__item"> <a href="#0" class="themes__item__link">Здоровье</a><span class="sup_text">4</span></li>
+            <li class="themes__item"> <a href="#0" class="themes__item__link">Образ жизни</a><span class="sup_text">145</span></li>
+            <li class="themes__item"> <a href="#0" class="themes__item__link">Музыка</a><span class="sup_text">28</span></li>
+            <li class="themes__item"> <a href="#0" class="themes__item__link">Спорт</a><span class="sup_text">62</span></li>
+            <li class="themes__item"> <a href="#0" class="themes__item__link">Йога</a><span class="sup_text">8</span></li>
           </ul>
       </section>
     </aside>
@@ -367,35 +367,38 @@
     </div> 
   </section>
   <!-- ----------------------------------------------------------------- -->
-  <div class="pop-up _hidden">
-    <div class="pop-up__content">
-      <h2 class="section-title mod">Ваш фидбек</h2>
-      <!-- ----------- -->
-      <form class="form">
-        <label class="form__item">Как часто вы заходите на сайт?
-          <select class="selection-field">
-            <option selected>Почти каждый день</option>
-            <option selected>Раз в несколько дней</option>
-            <option selected>Раз в несколько недель</option>
-            <option selected>Несколько раз в год</option>
-          </select>
-        </label>
-        <span class="form__item">Вы подписаны на e-mail рассылку?</span>
-        <div class="radio-wrapper">
-          <input class="input__radio" type="radio" name="123" id="yes">
-          <label class="radio" for="yes">Да</label>
-          <input class="input__radio" type="radio" name="123" id="no">
-          <label class="radio" for="no">Нет</label>
-        </div>
-        
-        <label>
-          <span class="form__item">Расскажите, какой контент вы хотели бы видеть на нашем сайте?</span>
-          <textarea class="text-box" placeholder="Может, больше рецептов?"></textarea>
-        </label>
-        <input type="submit" class="pop-up__submit">
-      </form>
-      <!-- ----------- -->
+  <div class="pop-up">
+    <div class="pop-up__box">
+      <button class="pop-up__close"><span class="visually-hidden">Закрыть</span></button>
+      <div class="pop-up__content">
+        <h2 class="section-title mod">Ваш фидбек</h2>
+        <!-- ----------- -->
+        <form class="form">
+          <label class="form__item">Как часто вы заходите на сайт?
+            <select class="selection-field">
+              <option selected>Почти каждый день</option>
+              <option selected>Раз в несколько дней</option>
+              <option selected>Раз в несколько недель</option>
+              <option selected>Несколько раз в год</option>
+            </select>
+          </label>
+          <span class="form__item">Вы подписаны на e-mail рассылку?</span>
+          <div class="radio-wrapper">
+            <input class="input__radio" type="radio" name="123" id="yes">
+            <label class="radio" for="yes">Да</label>
+            <input class="input__radio" type="radio" name="123" id="no">
+            <label class="radio" for="no">Нет</label>
+          </div>
+          
+          <label>
+            <span class="form__item">Расскажите, какой контент вы хотели бы видеть на нашем сайте?</span>
+            <textarea class="text-box" placeholder="Может, больше рецептов?"></textarea>
+          </label>
+          <input type="submit" class="pop-up__submit">
+        </form>
+      </div>
     </div>
+    
   </div>
   <!-- ----------------------------------------------------------------- -->
   <footer class="footer-content">
